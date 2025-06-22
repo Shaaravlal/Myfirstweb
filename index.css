@@ -1,0 +1,48 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: 1280px;
+    margin: 0px;
+}
+head{
+    width: 5px;
+    font-size: 25px;
+    color: white;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+    margin-left: 110px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    animation-name: hover;
+    animation-duration: 1.5s;
+}
+@keyframes hover {
+    from{color: white;}
+    to{color: rgb(89, 89, 255);}
+}
+img{
+    height: 100px;
+    margin-top: -15px;
+    margin-right: -25px;
+    margin-left: -100px
+}
+header{
+    color: white;
+    font-size: 80px;
+    margin-top: 100px;
+}
